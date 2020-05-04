@@ -1,12 +1,13 @@
 .header {
   &__container {
     background: $mainColor;
-    color: whitesmoke;
+    font-family: $mainFont;
+    color: $darkMainColor;
     font-size: 0.8rem;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
-    padding: 0 0.5rem;
+    padding: 0.25rem 1rem;
   }
 }
